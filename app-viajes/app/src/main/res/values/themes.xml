@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- El color real lo aplica Compose (Theme.kt). Este tema base evita el
+         "flash" del sistema antes de que Compose tome el control. -->
+    <style name="Theme.ViajeIA" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0E7C7B</item>
+        <item name="android:windowBackground">#FBFDFC</item>
+    </style>
+</resources>
